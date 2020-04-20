@@ -15,9 +15,7 @@ beforeEach(() => {
 })
 
 describe('sassy()', () => {
-
   describe('arguments', () => {
-
     describe('src', () => {
       test('should throw error when null', async () => {
         expect(() => { this.app.use(sassy()) }).toThrow(new Error('[koa-sassy] src path is required'))
@@ -33,7 +31,6 @@ describe('sassy()', () => {
     })
 
     describe('options.maxAge', () => {
-  
       test('should set valid delta seconds', async () => {
         this.app.use(sassy('./test/assets', { maxAge: 200 }))
         const res = await this.request.get('/one.css')
@@ -72,7 +69,6 @@ describe('sassy()', () => {
     })
 
     describe('options.mount', () => {
-
       test('defult is /', async () => {
         this.app.use(sassy('./test/assets', {}))
         const res = await this.request.get('/one.css')
@@ -88,7 +84,6 @@ describe('sassy()', () => {
   })
 
   describe('requests', () => {
-
     test('GET / ', async () => {
       this.app.use(sassy('./test/assets'))
       const res = await this.request.get('/one.css')
