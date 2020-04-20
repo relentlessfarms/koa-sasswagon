@@ -14,7 +14,7 @@ const ONE_DAY_MS = 60 * 60 * 24 // one day in seconds
  * serves cached sass as complied css
  * @param {String} src path to sass directory
  * @param {Object} options koa-sassy options object
- * @param {Object} options.mount mount point for css to be severed - default / 
+ * @param {Object} options.mount mount point for css to be severed - default /
  * @param {Number} options.maxAge maximum time the favicon is considered fresh - default one day
  * @returns {Function} middleware serving complied css
  */
