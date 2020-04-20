@@ -28,3 +28,19 @@ app.use(sassy('/sass'))
 
 app.listen(3000)
 ```
+
+## API :package:
+
+### sassy(src, options) ⇒ `function`
+
+serves cached sass as complied css
+
+**Kind**: exported function  
+**Returns**: `function` - middleware serving complied css
+
+| Param | Type | Description |
+| --- | --- | --- |
+| src | `String` | path to sass directory |
+| options | `Object` | koa-sassy options object |
+| mount | `string` | mount point for css to be severed - default / |
+| options.maxAge | `Number` | maximum time the favicon is considered fresh - default one day |
