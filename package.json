@@ -4,7 +4,9 @@
   "description": "Modern Node.js Koa Middleware for Compiling and Serving Sass 🎨",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "standard",
+    "coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,13 @@
   "homepage": "https://github.com/dominicegginton/koa-sassy#readme",
   "devDependencies": {
     "jest": "^25.3.0",
-    "standard": "^14.3.3"
+    "koa": "^2.11.0",
+    "standard": "^14.3.3",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "etag": "^1.8.1",
+    "fs-extra": "^9.0.0",
+    "node-sass": "^4.13.1"
   }
 }
