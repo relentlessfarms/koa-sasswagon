@@ -1,6 +1,6 @@
 {
   "name": "koa-sassy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modern Node.js Koa Middleware for Compiling and Serving Sass 🎨",
   "main": "index.js",
   "scripts": {
