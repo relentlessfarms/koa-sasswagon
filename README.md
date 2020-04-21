@@ -1,5 +1,10 @@
 # koa-sassy
 
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/dominicegginton/koa-sassy/CI/master?label=CI)](https://github.com/dominicegginton/koa-sassy/actions)
+[![Code Climate coverage](https://img.shields.io/codeclimate/coverage/dominicegginton/koa-sassy)](https://codeclimate.com/github/dominicegginton/koa-sasssy)
+[![npm](https://img.shields.io/npm/dt/koa-sassy?label=Downloads)](https://www.npmjs.com/package/koa-sassy)
+[![js-standard-style](https://img.shields.io/badge/Code%20Style-standard-brightgreen.svg)](http://standardjs.com)
+
 > :art: Modern Koa middleware for SASS
 
 ## Why
