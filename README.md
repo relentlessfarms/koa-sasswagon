@@ -72,7 +72,7 @@ This mounts your complied SASS to the `/stylesheets` path.
 
 The [cash-control header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control) holds directives (instructions) for caching in both requests and responses and is used to determine how long a given resource is considered fresh
 
-**koa-sassy** makes it easy to control how long your favicon is considered fresh. Pass the maximum age in seconds in the `options.maxAge` perimeter
+**koa-sassy** makes it easy to control how long your stylesheet is considered fresh. Pass the maximum age in seconds in the `options.maxAge` perimeter
 
 ``` js
 app.use(sassy('/sass'), { maxAge: 3600 }) // 1 hour
