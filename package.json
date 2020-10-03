@@ -2,7 +2,7 @@
   "name": "koa-sassy",
   "version": "1.0.3",
   "description": "🎨 Modern Koa middleware for SASS",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest",
     "lint": "standard",
