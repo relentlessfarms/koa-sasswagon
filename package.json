@@ -1,6 +1,6 @@
 {
   "name": "koa-sassy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "🎨 Modern Koa middleware for SASS",
   "main": "lib/index.js",
   "scripts": {
