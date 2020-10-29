@@ -32,7 +32,7 @@
     "jest": "^26.0.0",
     "koa": "^2.11.0",
     "standard": "^16.0.0",
-    "supertest": "^5.0.0"
+    "supertest": "^6.0.0"
   },
   "dependencies": {
     "etag": "^1.8.1",
