@@ -3,6 +3,9 @@
   "version": "1.0.6",
   "description": "Modern Koa middleware for SASS",
   "main": "lib/index.js",
+  "engines": {
+    "node": ">12"
+  },
   "scripts": {
     "test": "jest",
     "lint": "standard",
