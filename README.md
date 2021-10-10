@@ -1,6 +1,6 @@
 # koa-sassy
 
-Modern Koa middleware for compiling SASS and caching cache. It comes with built-in [ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) cache-control header support and a easy to use API.
+Modern Koa middleware for compiling SASS and caching cache. It comes with built-in [ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) cache-control header support and an easy to use API. I no longer suggest using **koa-sassy**, it was originally built more as a learning aid for maintaining and publishing npm packages, however, the architecture itself is fundamentally floored. Compiling and caching SASS in middleware is highly inefficient and is much better handled by build tools. As software engineers, we should constantly be thinking about how we can improve the suitability of the systems we design and build. I'm taking one very small step in the name of the environment by archiving this unsustainable project.
 
 ## Install
 
