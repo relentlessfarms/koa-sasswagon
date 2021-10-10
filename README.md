@@ -1,20 +1,6 @@
-<h1 align='center'>koa-sassy</h1>
+# koa-sassy
 
-<h4 align='center'>Modern Koa middleware for SASS</h4>
-
-<div align='center'>
-  <img src='https://img.shields.io/github/workflow/status/dominicegginton/koa-sassy/CI/master?label=CI'>
-  <img src='https://img.shields.io/codeclimate/coverage/dominicegginton/koa-sassy'>
-  <img src='https://img.shields.io/npm/dt/koa-sassy?label=Downloads'>
-  <img src='https://img.shields.io/badge/Code%20Style-standard-brightgreen.svg'>
-</div>
-
-## Features
-
-- Caches complied CSS for fast responses
-- Built-in [ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) support
-- Cache-control header support
-- Easy to use API
+Modern Koa middleware for compiling SASS and caching cache. It comes with built-in [ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) cache-control header support and a easy to use API.
 
 ## Install
 
